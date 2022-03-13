@@ -1,0 +1,128 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.header nav {
+  padding: 1.5rem;
+  background-color: #f7f7f7;
+  -webkit-box-shadow: -3px 3px 20px rgba(0, 0, 0, 0.205);
+          box-shadow: -3px 3px 20px rgba(0, 0, 0, 0.205);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header nav .nav-logo {
+  width: 10rem;
+}
+
+.header section {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.header section .left {
+  width: 30%;
+  padding: 10rem;
+  float: left;
+}
+
+.header section .left h1 {
+  font-size: 6rem;
+  margin: 16px 0;
+  line-height: 1.45;
+}
+
+.header section .left p {
+  font-size: 1.85rem;
+  margin: 0;
+}
+
+.header section .right {
+  width: 100%;
+  padding: 1rem;
+  float: right;
+}
+
+.header section .right .hero_photo {
+  width: 135%;
+}
+
+.header .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: -3px 3px 20px rgba(0, 0, 0, 0.089);
+          box-shadow: -3px 3px 20px rgba(0, 0, 0, 0.089);
+  width: 17rem;
+  margin: 3rem 3.25rem;
+}
+
+.header .card .card_header .character_img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.header .card .card_info {
+  padding: .5rem 0.5rem;
+}
+
+.header .card .card_info .rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.header .card .card_info .rating .card_star {
+  height: auto;
+  margin: 0 0.5rem;
+}
+
+.header .card .card_info .rating span {
+  font-size: 1.70rem;
+}
+
+.header .card .card_info .content p {
+  font-size: 1.3rem;
+  margin: 1rem 0;
+}
+
+@media (max-width: 968px) {
+  .header section {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: reverse !important;
+        -ms-flex-direction: column-reverse !important;
+            flex-direction: column-reverse !important;
+  }
+  .header section .left {
+    padding: 0rem;
+    width: 100%;
+  }
+  .header section .left h1 {
+    font-size: 15vw;
+  }
+  .header section .right .hero_photo {
+    padding: 1rem 5rem;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=App.css.map */
