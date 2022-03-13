@@ -57,7 +57,11 @@ body {
   width: 135%;
 }
 
-.header .card {
+.header .card-container {
+  padding: 8.8vw;
+}
+
+.header .card-container .card {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -71,16 +75,16 @@ body {
   margin: 3rem 1.5rem;
 }
 
-.header .card .card_header .character_img {
+.header .card-container .card .card_header .character_img {
   width: 100%;
   border-radius: 15px;
 }
 
-.header .card .card_info {
-  padding: .5rem 0.5rem;
+.header .card-container .card .card_info {
+  padding: 0.5rem 0.5rem;
 }
 
-.header .card .card_info .rating {
+.header .card-container .card .card_info .rating {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -92,16 +96,16 @@ body {
           justify-content: flex-start;
 }
 
-.header .card .card_info .rating .card_star {
+.header .card-container .card .card_info .rating .card_star {
   height: auto;
   margin: 0 0.5rem;
 }
 
-.header .card .card_info .rating span {
-  font-size: 1.70rem;
+.header .card-container .card .card_info .rating span {
+  font-size: 1.7rem;
 }
 
-.header .card .card_info .content p {
+.header .card-container .card .card_info .content p {
   font-size: 1.3rem;
   margin: 1rem 0;
 }
@@ -121,7 +125,7 @@ body {
     font-size: 15vw;
   }
   .header section .right .hero_photo {
-    padding: 1rem  0rem;
+    padding: 1rem 0rem;
     width: 100%;
   }
 }

@@ -10,10 +10,13 @@ export default function Header() {
     <div className="header">
       <Navbar />
       <Article />
-      <Card img={person1} rating="5.0" title="Life Lessons with Katie Zaferes" price={136} />
-      <Card img={person2} rating="5.0" title="Hello World" price={136} />
-      <Card img={person2} rating="5.0" title="Hello World" price={136} />
-      <Card img={person2} rating="5.0" title="Hello World" price={136} />
+      <div className="card-container">
+        <Card img={person1} rating="5.0" title="Hello World" price={136} />
+        <Card img={person2} rating="5.0" title="Hello World" price={136} />
+        <Card img={person2} rating="5.0" title="Hello World" price={136} />
+        <Card img={person2} rating="5.0" title="Hello World" price={136} />
+        <Card img={person2} rating="5.0" title="Hello World" price={136} />
+      </div>
     </div>
   );
 }

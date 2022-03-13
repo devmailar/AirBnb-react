@@ -49,41 +49,44 @@ body {
     }
   }
 
-  .card {
-    display: inline-flex;
-    flex-direction: column;
-    box-shadow: -3px 3px 20px rgba(0, 0, 0, 0.089);
-    width: 17rem;
-    margin: 3rem 1.5rem;
+  .card-container {
+    padding: 8.8vw;
+    .card {
+      display: inline-flex;
+      flex-direction: column;
+      box-shadow: -3px 3px 20px rgba(0, 0, 0, 0.089);
+      width: 17rem;
+      margin: 3rem 1.5rem;
 
-    .card_header {
-      .character_img {
-        width: 100%;
-        border-radius: 15px;
-      }
-    }
-
-    .card_info {
-      padding: .5rem 0.5rem;
-
-      .rating {
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        .card_star {
-          height: auto;
-          margin: 0 0.5rem;
-        }
-
-        span {
-          font-size: 1.70rem;
+      .card_header {
+        .character_img {
+          width: 100%;
+          border-radius: 15px;
         }
       }
 
-      .content {
-        p {
-          font-size: 1.3rem;
-          margin: 1rem 0;
+      .card_info {
+        padding: 0.5rem 0.5rem;
+
+        .rating {
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          .card_star {
+            height: auto;
+            margin: 0 0.5rem;
+          }
+
+          span {
+            font-size: 1.7rem;
+          }
+        }
+
+        .content {
+          p {
+            font-size: 1.3rem;
+            margin: 1rem 0;
+          }
         }
       }
     }
@@ -105,7 +108,7 @@ body {
 
       .right {
         .hero_photo {
-          padding: 1rem  0rem;
+          padding: 1rem 0rem;
           width: 100%;
         }
       }
