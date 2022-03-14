@@ -3,12 +3,12 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 // Elements
-import Header from "./components/Header";
+import App from "./components/App";
 import "./components/css/App.css";
 
 ReactDOM.render(
   <React.StrictMode >
-    <Header />
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );

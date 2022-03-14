@@ -1,22 +1,16 @@
-import Navbar from "./Navbar";
-import Article from "./Article";
-import Card from "./Card";
-
-import person1 from "./img/katie-zaferes.png";
-import person2 from "./img/katie-zaferes.png";
+import photo_grid from "../images/photo-grid.png";
 
 export default function Header() {
   return (
-    <div className="header">
-      <Navbar />
-      <Article />
-      <div className="card-container">
-        <Card img={person1} rating="5.0" title="Hello World" price={136} />
-        <Card img={person2} rating="5.0" title="Hello World" price={136} />
-        <Card img={person2} rating="5.0" title="Hello World" price={136} />
-        <Card img={person2} rating="5.0" title="Hello World" price={136} />
-        <Card img={person2} rating="5.0" title="Hello World" price={136} />
+    <section>
+      <div className="left">
+        <h1>Online Experiences</h1>
+        <p>Join unique experience activities led by one-of-a-kind hosts-all without leaving home.</p>
       </div>
-    </div>
+
+      <div className="right">
+        <img src={photo_grid} alt="photogrid" className="hero_photo" />
+      </div>
+    </section>
   );
 }

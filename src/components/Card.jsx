@@ -1,10 +1,10 @@
-import star from "./img/star.png";
+import star from "../images/star.png";
 
 export default function Card(props) {
   return (
     <div className="card">
       <div className="card_header">
-        <img src={props.img} alt="katiezaferes" className="character_img" />
+        <img src={`../images/${props.img}`} alt="img" className="character_img" />
       </div>
       <div className="card_info">
         <div className="rating">
