@@ -1,4 +1,4 @@
-import photo_grid from "../images/rocket-grid.jpg";
+import photo_grid from "./img/rocket-grid.jpg";
 
 export default function Header() {
   return (

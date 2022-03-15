@@ -4,7 +4,7 @@ export default function Card(props) {
   return (
     <div className="card">
       <div className="card_header">
-        <img src={`../images/${props.img}`} alt={props.alt} className="character_img" />
+        <img src={`https://image.tmdb.org/t/p/w500/${props.img}`} alt={props.alt} className="character_img" />
       </div>
       <div className="card_info">
         <div className="rating">
@@ -13,7 +13,7 @@ export default function Card(props) {
         </div>
         <div className="content">
           <p>{props.title}</p>
-          <p>From ${props.price} / person</p>
+          <p>{props.price}€ / person</p>
         </div>
       </div>
     </div>
