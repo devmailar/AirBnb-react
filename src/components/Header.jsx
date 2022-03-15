@@ -1,11 +1,11 @@
-import photo_grid from "../images/photo-grid.png";
+import photo_grid from "../images/rocket-grid.jpg";
 
 export default function Header() {
   return (
     <section>
       <div className="left">
-        <h1>Online Experiences</h1>
-        <p>Join unique experience activities led by one-of-a-kind hosts-all without leaving home.</p>
+        <h1>Rocket Experiences</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt nostrum sint exercitationem ut similique sunt.</p>
       </div>
 
       <div className="right">
