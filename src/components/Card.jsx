@@ -1,6 +1,18 @@
-import React from "react"
+import React from "react";
 
 export default function Card(props) {
+  const bgVariants = {
+    Beginner: "rgb(203, 243, 156)",
+    Experienced: "rgb(243, 226, 156)",
+    Professional: "rgb(243, 162, 156)",
+  };
+
+  let color = bgVariants[props.level];
+
+  const level = {
+    backgroundColor: color,
+  }
+
   return (
     <div className="card">
       <div className="card_header">
@@ -13,7 +25,14 @@ export default function Card(props) {
         </div>
         <div className="content">
           <p>{props.title}</p>
+          <p id="level" style={level}>{props.level}</p>
           <p>{props.price}€ / person</p>
+          <a href={`https://${props.paymentUrl}`} target="_blank" rel="noopener noreferrer">
+            <svg xmlns="http://www.w3.org/2000/svg" className="" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+            </svg>
+            Add to cart
+          </a>
         </div>
       </div>
     </div>

@@ -14,7 +14,9 @@ export default function App() {
         reviewCount={item.stats.reviewCount}
         location={item.location}
         title={item.title}
+        level={item.level}
         price={item.price}
+        paymentUrl = {item.paymentUrl}
       />
     );
   });

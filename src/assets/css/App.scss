@@ -91,13 +91,52 @@ body {
             font-size: 1.3rem;
             margin: 1rem 0;
           }
+
+          #level {
+            background-color: rgba(185, 184, 184, 0.645);
+            font-family: "Consolas", sans-serif;
+            font-weight: bold;
+            box-shadow: 5px 3px 10px rgba(21, 21, 21, 0.097);
+            border-radius: 0.5rem;
+            padding: 0.5rem;
+          }
+
+          a {
+            padding: .5rem;
+            display: flex;
+            justify-content: center;
+            background-color: #ff4f5a;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 1.2rem;
+
+            svg {
+              width: 1.5rem;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+          }
+
+          // .easy {
+          //   background-color: rgb(203, 243, 156) !important;
+          // }
+          //
+          // .medium {
+          //   background-color: rgb(243, 226, 156) !important;
+          // }
+          //
+          // .hard {
+          //   background-color: rgb(243, 162, 156) !important;
+          // }
         }
       }
     }
   }
 }
 
-@media (max-width: 1368px) {
+@media (max-width: 1200px) {
   .header {
     nav {
       padding: 1.5rem;
@@ -112,16 +151,20 @@ body {
     }
     section {
       flex-direction: column-reverse !important;
+      margin: 0;
       .left {
         padding: 0rem;
         width: 100%;
 
         h1 {
           font-size: 13vw;
+          text-align: center;
+          margin: 10px;
         }
 
         p {
           font-size: 4vw;
+          text-align: center;
         }
       }
 
@@ -130,6 +173,15 @@ body {
           padding: 1rem 0rem;
           width: 100%;
         }
+      }
+    }
+
+    .card-container {
+      text-align: center;
+      margin: 0;
+
+      .card {
+        margin: 2rem 0;
       }
     }
   }

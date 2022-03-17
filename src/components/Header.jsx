@@ -4,8 +4,8 @@ export default function Header() {
   return (
     <section>
       <div className="left">
-        <h1>Online Experiences</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt nostrum sint exercitationem ut similique sunt.</p>
+        <h1>Rocket Experiences</h1>
+        <p>Enjoy unique interactive and interesting adventure activities led by one of a kind hosts and join in an adventure.</p>
       </div>
 
       <div className="right">

@@ -116,7 +116,45 @@ body {
   margin: 1rem 0;
 }
 
-@media (max-width: 1368px) {
+.header .card-container .card .card_info .content #level {
+  background-color: rgba(185, 184, 184, 0.645);
+  font-family: "Consolas", sans-serif;
+  font-weight: bold;
+  -webkit-box-shadow: 5px 3px 10px rgba(21, 21, 21, 0.097);
+          box-shadow: 5px 3px 10px rgba(21, 21, 21, 0.097);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+.header .card-container .card .card_info .content a {
+  padding: .5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #ff4f5a;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 1.2rem;
+}
+
+.header .card-container .card .card_info .content a svg {
+  width: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 1200px) {
   .header nav {
     padding: 1.5rem;
     background-color: #f7f7f7;
@@ -139,6 +177,7 @@ body {
     -webkit-box-direction: reverse !important;
         -ms-flex-direction: column-reverse !important;
             flex-direction: column-reverse !important;
+    margin: 0;
   }
   .header section .left {
     padding: 0rem;
@@ -146,13 +185,23 @@ body {
   }
   .header section .left h1 {
     font-size: 13vw;
+    text-align: center;
+    margin: 10px;
   }
   .header section .left p {
     font-size: 4vw;
+    text-align: center;
   }
   .header section .right .hero_photo {
     padding: 1rem 0rem;
     width: 100%;
+  }
+  .header .card-container {
+    text-align: center;
+    margin: 0;
+  }
+  .header .card-container .card {
+    margin: 2rem 0;
   }
 }
 /*# sourceMappingURL=App.css.map */
