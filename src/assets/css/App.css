@@ -117,21 +117,19 @@ body {
 }
 
 .header .card-container .card .card_info .content #level {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: auto;
+  width: 6rem;
   background-color: rgba(185, 184, 184, 0.645);
-  font-family: "Consolas", sans-serif;
-  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
   -webkit-box-shadow: 5px 3px 10px rgba(21, 21, 21, 0.097);
           box-shadow: 5px 3px 10px rgba(21, 21, 21, 0.097);
   border-radius: 0.5rem;
-  padding: 0.5rem;
+  font-size: 1rem;
+  padding: 0.2rem 0.4rem;
 }
 
 .header .card-container .card .card_info .content a {
-  padding: .5rem;
+  padding: 0.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -206,6 +204,19 @@ body {
   }
   .header .card-container .card {
     margin: 2rem 0;
+  }
+  .header .card-container .card .card_info .rating {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .header .card-container .card .card_info .rating .card_star {
+    margin: 0;
+  }
+  .header .card-container .card .card_info .content #level {
+    text-align: center;
+    width: auto;
+    margin: 0 4rem;
   }
 }
 /*# sourceMappingURL=App.css.map */

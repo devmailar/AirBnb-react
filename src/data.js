@@ -49,5 +49,4 @@ export default [
     location: "Online",
     openSpots: 0,
   },
-
 ];

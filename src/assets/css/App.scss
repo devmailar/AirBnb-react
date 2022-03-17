@@ -93,18 +93,18 @@ body {
           }
 
           #level {
-            display: flex;
-            width: auto;
+            width: 6rem;
             background-color: rgba(185, 184, 184, 0.645);
-            font-family: "Consolas", sans-serif;
-            font-weight: bold;
+            font-family: "Poppins", sans-serif;
+            font-weight: normal;
             box-shadow: 5px 3px 10px rgba(21, 21, 21, 0.097);
             border-radius: 0.5rem;
-            padding: 0.5rem;
+            font-size: 1rem;
+            padding: 0.2rem 0.4rem;
           }
 
           a {
-            padding: .5rem;
+            padding: 0.5rem;
             display: flex;
             justify-content: center;
             background-color: #ff4f5a;
@@ -184,6 +184,22 @@ body {
 
       .card {
         margin: 2rem 0;
+
+        .card_info {
+          .rating {
+            justify-content: center;
+            .card_star {
+              margin: 0;
+            }
+          }
+          .content {
+            #level {
+              text-align: center;
+              width: auto;
+              margin: 0 4rem;
+            }
+          }
+        }
       }
     }
   }
