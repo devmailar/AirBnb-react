@@ -117,6 +117,10 @@ body {
 }
 
 .header .card-container .card .card_info .content #level {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: auto;
   background-color: rgba(185, 184, 184, 0.645);
   font-family: "Consolas", sans-serif;
   font-weight: bold;

@@ -24,7 +24,7 @@ export default function Card(props) {
           <span>{props.rating}</span>
         </div>
         <div className="content">
-          <p>{props.title}</p>
+          <p id="title">{props.title}</p>
           <p id="level" style={level}>{props.level}</p>
           <p>{props.price}€ / person</p>
           <a href={`https://${props.paymentUrl}`} target="_blank" rel="noopener noreferrer">
