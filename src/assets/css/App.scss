@@ -11,15 +11,17 @@ body {
     background-color: rgb(247, 247, 247);
     box-shadow: -3px 3px 20px rgba(0, 0, 0, 0.205);
     display: flex;
+    flex-direction: row;
     .nav-logo {
+      margin: 0 14.7rem;
       width: 10rem;
     }
   }
 
   section {
-    padding: 20px;
     display: flex;
     flex-direction: row;
+    margin: 0 5vw;
 
     .left {
       width: 30%;
@@ -27,25 +29,24 @@ body {
       float: left;
 
       h1 {
-        font-size: 6rem;
-        margin: 16px 0;
+        font-size: 5.5rem;
+        margin: 35px 0;
         line-height: 1.45;
       }
 
       p {
-        font-size: 1.85rem;
+        font-size: 1.6rem;
         margin: 0;
       }
     }
 
     .right {
       width: 100%;
-      margin: 5vw 0;
-      padding: 1rem;
+      margin: 8vw 0;
       float: right;
 
       .hero_photo {
-        width: 85%; // 50%
+        width: 90%; // 50%
       }
     }
   }
@@ -94,7 +95,7 @@ body {
   }
 }
 
-@media (max-width: 968px) {
+@media (max-width: 1368px) {
   .header {
     section {
       flex-direction: column-reverse !important;
@@ -103,7 +104,11 @@ body {
         width: 100%;
 
         h1 {
-          font-size: 15vw;
+          font-size: 13vw;
+        }
+
+        p {
+          font-size: 4vw;
         }
       }
 
