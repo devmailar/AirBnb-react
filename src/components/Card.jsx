@@ -3,7 +3,7 @@ import React from "react";
 export default function Card(props) {
   const bgVariants = {
     Beginner: "rgb(203, 243, 156)",
-    Experienced: "rgb(243, 226, 156)",
+    Master: "rgb(243, 226, 156)",
     Professional: "rgb(243, 162, 156)",
   };
 
