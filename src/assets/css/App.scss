@@ -93,14 +93,14 @@ body {
           }
 
           #level {
-            width: 6rem;
+            display: ruby;
+            width: auto;
             background-color: rgba(185, 184, 184, 0.645);
             font-family: "Poppins", sans-serif;
             font-weight: normal;
-            box-shadow: 5px 3px 10px rgba(21, 21, 21, 0.097);
             border-radius: 0.5rem;
             font-size: 1rem;
-            padding: 0.2rem 0.4rem;
+            padding: .40rem;
           }
 
           a {
@@ -120,7 +120,6 @@ body {
               align-items: center;
             }
           }
-
           // .easy {
           //   background-color: rgb(203, 243, 156) !important;
           // }

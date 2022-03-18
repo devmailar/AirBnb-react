@@ -26,7 +26,7 @@ export default [
     coverImg: "kart-racing.webp",
     coverIcon: "star.png",
     stats: {
-      rating: 9.0,
+      rating: 8.3,
       reviewCount: 6,
     },
     location: "Online",
@@ -60,7 +60,7 @@ export default [
     coverImg: "camping.webp",
     coverIcon: "star.png",
     stats: {
-      rating: 9.6,
+      rating: 8.9,
       reviewCount: 6,
     },
     location: "Online",
@@ -77,14 +77,31 @@ export default [
     coverImg: "photo-graphy.webp",
     coverIcon: "star.png",
     stats: {
-      rating: 10.0,
+      rating: 9.2,
       reviewCount: 30,
     },
     location: "Online",
     openSpots: 27,
   },
   {
-    id: 8,
+    id: 6,
+    title: "Skiing",
+    level: "Master",
+    description:
+      "Interested in becoming a wedding photographer? For beginner and experienced photographers alike, join us in learning techniques required to leave the happy couple with memories that'll last a lifetime.",
+    price: 100,
+    paymentUrl: "en.wikipedia.org/wiki/Photography",
+    coverImg: "skiing.webp",
+    coverIcon: "star.png",
+    stats: {
+      rating: 9.5,
+      reviewCount: 30,
+    },
+    location: "Online",
+    openSpots: 27,
+  },
+  {
+    id: 7,
     title: "Motorcycle Racing",
     level: "Professional",
     description:
@@ -92,6 +109,23 @@ export default [
     price: 300,
     paymentUrl: "formula1.com",
     coverImg: "motorcycle-racing.webp",
+    coverIcon: "star.png",
+    stats: {
+      rating: 10.0,
+      reviewCount: 6,
+    },
+    location: "Online",
+    openSpots: 0,
+  },
+  {
+    id: 8,
+    title: "Poker",
+    level: "Professional",
+    description:
+      'I will share with you what I call "Positively Impactful Moments of Disappointment." Throughout my career, many of my highest moments only came after setbacks and losses. But learning from those difficult moments is what gave me the ability to rise above them and reach my goals.',
+    price: 500,
+    paymentUrl: "formula1.com",
+    coverImg: "poker.webp",
     coverIcon: "star.png",
     stats: {
       rating: 10.0,
