@@ -85,6 +85,15 @@ body {
   color: #fe4e59;
 }
 
+.header .card-container .wrapper .alert .sub_message {
+  margin: 0 0.8vw;
+  font-size: 2rem;
+}
+
+.header .card-container .wrapper .alert .sub_message #message {
+  color: #797475;
+}
+
 .header .card-container .wrapper .card {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;

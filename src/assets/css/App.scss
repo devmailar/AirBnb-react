@@ -74,6 +74,17 @@ body {
         color: #fe4e59;
       }
 
+      .alert {
+        .sub_message {
+          margin: 0 0.8vw;
+          font-size: 2rem;
+
+          #message {
+            color: #797475;
+          }
+        }
+      }
+
       .card {
         display: inline-flex;
         flex-direction: column;
