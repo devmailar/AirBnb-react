@@ -55,82 +55,102 @@ body {
     padding: 8.8vw;
     margin: 0rem 4.6rem;
 
-    .card {
-      display: inline-flex;
-      flex-direction: column;
-      box-shadow: -3px 3px 20px rgba(0, 0, 0, 0.089);
-      width: 17rem;
-      margin: 1rem 1rem;
-
-      .card_header {
-        .character_img {
-          width: 100%;
-          border-radius: 15px;
-        }
+    .wrapper {
+      h1 {
+        font-size: 6.5vw;
+        color: #0a0a0a09;
+        -webkit-user-select: none;
+        -webkit-touch-callout: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        margin: 0;
       }
 
-      .card_info {
-        padding: 0.5rem 0.5rem;
+      h2 {
+        margin-top: -6vw;
+        margin-left: 2vw;
+        font-size: 6vw;
+        color: #fe4e59;
+      }
 
-        .rating {
-          display: flex;
-          align-items: center;
-          justify-content: flex-start;
-          .card_star {
-            height: auto;
-            margin: 0 0.5rem;
-          }
+      .card {
+        display: inline-flex;
+        flex-direction: column;
+        box-shadow: -3px 3px 20px rgba(0, 0, 0, 0.089);
+        width: 17rem;
+        margin: 1rem 1rem;
 
-          span {
-            font-size: 1.7rem;
+        .card_header {
+          .character_img {
+            width: 100%;
+            border-radius: 15px;
           }
         }
 
-        .content {
-          p {
-            font-size: 1.3rem;
-            margin: 1rem 0;
-          }
+        .card_info {
+          padding: 0.5rem 0.5rem;
 
-          #level {
-            display: ruby;
-            width: auto;
-            background-color: rgba(185, 184, 184, 0.645);
-            font-family: "Poppins", sans-serif;
-            font-weight: normal;
-            border-radius: 0.5rem;
-            font-size: 1rem;
-            padding: .40rem;
-          }
-
-          a {
-            padding: 0.5rem;
+          .rating {
             display: flex;
-            justify-content: center;
-            background-color: #ff4f5a;
-            color: white;
-            text-decoration: none;
-            border-radius: 8px;
-            font-size: 1.2rem;
+            align-items: center;
+            justify-content: flex-start;
+            .card_star {
+              height: auto;
+              margin: 0 0.5rem;
+            }
 
-            svg {
-              width: 1.5rem;
-              display: flex;
-              justify-content: center;
-              align-items: center;
+            span {
+              font-size: 1.7rem;
             }
           }
-          // .easy {
-          //   background-color: rgb(203, 243, 156) !important;
-          // }
-          //
-          // .medium {
-          //   background-color: rgb(243, 226, 156) !important;
-          // }
-          //
-          // .hard {
-          //   background-color: rgb(243, 162, 156) !important;
-          // }
+
+          .content {
+            p {
+              font-size: 1.3rem;
+              margin: 1rem 0;
+            }
+
+            #level {
+              display: ruby;
+              width: auto;
+              background-color: rgba(185, 184, 184, 0.645);
+              font-family: "Poppins", sans-serif;
+              font-weight: normal;
+              border-radius: 0.5rem;
+              font-size: 1rem;
+              padding: 0.4rem;
+            }
+
+            a {
+              padding: 0.5rem;
+              display: flex;
+              justify-content: center;
+              background-color: #ff4f5a;
+              color: white;
+              text-decoration: none;
+              border-radius: 8px;
+              font-size: 1.2rem;
+
+              svg {
+                width: 1.5rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+            }
+            // .easy {
+            //   background-color: rgb(203, 243, 156) !important;
+            // }
+            //
+            // .medium {
+            //   background-color: rgb(243, 226, 156) !important;
+            // }
+            //
+            // .hard {
+            //   background-color: rgb(243, 162, 156) !important;
+            // }
+          }
         }
       }
     }

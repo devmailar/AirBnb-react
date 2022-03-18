@@ -67,7 +67,25 @@ body {
   margin: 0rem 4.6rem;
 }
 
-.header .card-container .card {
+.header .card-container .wrapper h1 {
+  font-size: 6.5vw;
+  color: #0a0a0a09;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin: 0;
+}
+
+.header .card-container .wrapper h2 {
+  margin-top: -6vw;
+  margin-left: 2vw;
+  font-size: 6vw;
+  color: #fe4e59;
+}
+
+.header .card-container .wrapper .card {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -81,16 +99,16 @@ body {
   margin: 1rem 1rem;
 }
 
-.header .card-container .card .card_header .character_img {
+.header .card-container .wrapper .card .card_header .character_img {
   width: 100%;
   border-radius: 15px;
 }
 
-.header .card-container .card .card_info {
+.header .card-container .wrapper .card .card_info {
   padding: 0.5rem 0.5rem;
 }
 
-.header .card-container .card .card_info .rating {
+.header .card-container .wrapper .card .card_info .rating {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -102,21 +120,21 @@ body {
           justify-content: flex-start;
 }
 
-.header .card-container .card .card_info .rating .card_star {
+.header .card-container .wrapper .card .card_info .rating .card_star {
   height: auto;
   margin: 0 0.5rem;
 }
 
-.header .card-container .card .card_info .rating span {
+.header .card-container .wrapper .card .card_info .rating span {
   font-size: 1.7rem;
 }
 
-.header .card-container .card .card_info .content p {
+.header .card-container .wrapper .card .card_info .content p {
   font-size: 1.3rem;
   margin: 1rem 0;
 }
 
-.header .card-container .card .card_info .content #level {
+.header .card-container .wrapper .card .card_info .content #level {
   display: ruby;
   width: auto;
   background-color: rgba(185, 184, 184, 0.645);
@@ -124,10 +142,10 @@ body {
   font-weight: normal;
   border-radius: 0.5rem;
   font-size: 1rem;
-  padding: .40rem;
+  padding: 0.4rem;
 }
 
-.header .card-container .card .card_info .content a {
+.header .card-container .wrapper .card .card_info .content a {
   padding: 0.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -142,7 +160,7 @@ body {
   font-size: 1.2rem;
 }
 
-.header .card-container .card .card_info .content a svg {
+.header .card-container .wrapper .card .card_info .content a svg {
   width: 1.5rem;
   display: -webkit-box;
   display: -ms-flexbox;

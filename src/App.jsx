@@ -16,7 +16,7 @@ export default function App() {
         title={item.title}
         level={item.level}
         price={item.price}
-        paymentUrl = {item.paymentUrl}
+        paymentUrl={item.paymentUrl}
       />
     );
   });
@@ -24,7 +24,14 @@ export default function App() {
     <div className="header">
       <Navbar />
       <Header />
-      <div className="card-container">{cards}</div>
+      <div className="card-container">
+        <div className="wrapper">
+          <h1>Our list of activities</h1>
+          <h2>To try out</h2>
+
+          {cards}
+        </div>
+      </div>
     </div>
   );
 }
