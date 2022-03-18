@@ -77,10 +77,13 @@ body {
       .alert {
         .sub_message {
           margin: 0 0.8vw;
-          font-size: 2rem;
+          font-size: 1.5rem;
 
           #message {
-            color: #797475;
+            color: #a3a3a3;
+            font-size: 1.25rem;
+            border-radius: 10px;
+            transition: 1s;
           }
         }
       }

@@ -28,13 +28,12 @@ export default function App() {
         <div className="wrapper">
           <h1>Our list of activities</h1>
           <h2>To try out</h2>
+          {cards}
           <div className="alert">
             <p className="sub_message">
               <i className="fa-solid fa-cart-shopping"></i>: <span id="message"></span>
             </p>
           </div>
-
-          {cards}
         </div>
       </div>
     </div>

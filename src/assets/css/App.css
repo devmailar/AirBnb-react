@@ -87,11 +87,15 @@ body {
 
 .header .card-container .wrapper .alert .sub_message {
   margin: 0 0.8vw;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .header .card-container .wrapper .alert .sub_message #message {
-  color: #797475;
+  color: #a3a3a3;
+  font-size: 1.25rem;
+  border-radius: 10px;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .header .card-container .wrapper .card {
